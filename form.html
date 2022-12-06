@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+<style>
+
+    .header {
+      padding: 5px;
+      text-align: center;
+      background-image: url(./photo/N.jpg);
+      color:rgb(247, 243, 243);
+      background-size: cover;
+    }
+    
+    
+    .header h1 {
+      font-size: 40px;
+    }
+    
+    
+    .backg {
+      background-color: #52fd09;
+    }
+    
+    .main {   
+      padding: 30px;
+    }
+</style>
+</head>
+<body>
+<div class="header">
+<h1>Form</h1>
+</div>
+<div class="backg" , align="center" >
+    <div class="main">
+    <form>
+    <h3>personal information:</h3>
+    Username: <input type="text" name="Username"/><br>
+    Password: <input type="password" name="Password"/><br>
+    <h3>Select Course: </h3>
+    <input type="checkbox" name="c++" value="on"> C++<br>
+    <input type="checkbox" name="python" value="on"> python<br>
+    <input type="checkbox" name="html" value="on"> html<br>
+    <h3>fill gender:</h3>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female<br>
+    <h3>selet job type:</h3>
+    <select name="dropdown">
+        <option value="permanent" selected>permanent</option>
+        <option value="part-time" selected>part-time</option>
+    </select>
+    <br>
+    Description: <br/>
+    <textarea rows="5" cols="50" name="description">
+        Enter description here.
+    </textarea>
+    </form>
+    <button>
+        Sumit<type="Sumit"/>
+    </button>
+</div>
+</div>
+</body>
+</html>
